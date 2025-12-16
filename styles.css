@@ -1,15 +1,23 @@
-
-/* Your CSS Code here. */
-.holder {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Navbar Styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex; /* Optional: Use flex to align links horizontally */
 }
 
-.item-1 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Video Styling (Optional spacing) */
+video {
+    display: block;
+    margin-bottom: 20px;
 }
